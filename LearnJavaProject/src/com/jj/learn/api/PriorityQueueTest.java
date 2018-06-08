@@ -14,12 +14,12 @@ public class PriorityQueueTest {
 			ascendingQ.offer(s);
 		}
 		
-		System.out.println("============descending");
+		System.out.println("============descending==========");
 		while (!descendingQ.isEmpty()) {
 			System.out.println(descendingQ.poll());
 		}
 		
-		System.out.println("==============ascending");
+		System.out.println("==============ascending===========");
 		while (!ascendingQ.isEmpty()) {
 			System.out.println(ascendingQ.poll());
 		}
