@@ -1,18 +1,18 @@
 package com.jj.learn.leetcode;
 
-import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import java.util.Date;
-import java.util.Timer;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SlidingPuzzleLeetCode773Test {
 
 	private SlidingPuzzleLeetCode773 lc = null;
 	
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 		lc = new SlidingPuzzleLeetCode773();
 	}

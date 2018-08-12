@@ -8,11 +8,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 import com.jj.learn.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
-
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author che
@@ -25,7 +25,7 @@ public class MergeSortTest {
 	/**
 	 * @throws java.lang.Exception
 	 */
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 		ms = new MergeSort();
 		
@@ -34,8 +34,8 @@ public class MergeSortTest {
 
 	@Test
 	public void testMergeSort() {
-		a = new LinkedList<Integer>();
-		b = new LinkedList<Integer>();
+		a = new LinkedList<>();
+		b = new LinkedList<>();
 		
 		for (int i = 0; i < 50; i ++) {
 			a.add((int)(Math.random() * 100));
@@ -64,7 +64,7 @@ public class MergeSortTest {
 		List<Integer> sorted2 = ms.mergeSortedLists(new LinkedList<Integer>(), b);
 		assertEquals(b, sorted2);
 		
-		List<Integer> sorted3 = ms.mergeSortedLists(new LinkedList<Integer>(), new LinkedList<Integer>());
+		List<Integer> sorted3 = ms.mergeSortedLists(new LinkedList<>(), new LinkedList<>());
 		assertEquals(new LinkedList<Integer>(), sorted3);
 		
 		List<Integer> c = new LinkedList<>();

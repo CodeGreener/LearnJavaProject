@@ -1,14 +1,14 @@
 package com.jj.learn.leetcode;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class SelfCrossLeetCode335Test {
 
 	private SelfCrossLeetCode335 inst = new SelfCrossLeetCode335();
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 	}
 

@@ -1,16 +1,17 @@
 package com.jj.learn;
 
-import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SubsetsAddUpToANumberTest {
 
 	private SubsetsAddUpToANumber inst = new SubsetsAddUpToANumber();
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 	}
 

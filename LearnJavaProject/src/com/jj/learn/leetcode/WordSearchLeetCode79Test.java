@@ -1,14 +1,14 @@
 package com.jj.learn.leetcode;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WordSearchLeetCode79Test {
 
 	private WordSearchLeetCode79 inst = null;
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 		inst = new WordSearchLeetCode79();
 	}

@@ -1,14 +1,15 @@
 package com.jj.learn.leetcode;
 
-import static org.junit.Assert.*;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DivideTwoIntegersLeetCode29Test {
 
 	private DivideTwoIntegersLeetCode29 inst = null;
-	@Before
+	@BeforeAll
 	public void setUp() throws Exception {
 		inst = new DivideTwoIntegersLeetCode29();
 	}

@@ -58,13 +58,13 @@ public class DecryptMTP {
 				} else {
 					HashMap subMap = map.get(suba);
 					if (subMap.containsKey(" ")) {
-						HashMap subMap = new HashMap<String, Integer>();
+						subMap = new HashMap<String, Integer>();
 						subMap.put(suba, 1);
 					} else {
-						HashMap subMap = new HashMap<String, Integer>();
+						subMap = new HashMap<String, Integer>();
 						subMap.put(suba, 1);
 					}
-					map.get(suba).
+					//map.get(suba).
 				}
 			}
 			result += String.format("%1$02X", inta ^ intb);
