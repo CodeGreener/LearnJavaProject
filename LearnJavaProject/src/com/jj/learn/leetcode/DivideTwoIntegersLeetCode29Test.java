@@ -64,4 +64,9 @@ public class DivideTwoIntegersLeetCode29Test {
 		//overflows
 		assertEquals(715827882, result);
 	}
+
+	@Test
+    public void test9() {
+
+    }
 }
