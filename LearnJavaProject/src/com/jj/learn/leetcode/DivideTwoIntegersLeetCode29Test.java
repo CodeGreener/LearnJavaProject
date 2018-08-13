@@ -8,9 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DivideTwoIntegersLeetCode29Test {
 
-	private DivideTwoIntegersLeetCode29 inst = null;
+	private static DivideTwoIntegersLeetCode29 inst = null;
 	@BeforeAll
-	public void setUp() throws Exception {
+	public static void setUp() throws Exception {
 		inst = new DivideTwoIntegersLeetCode29();
 	}
 
