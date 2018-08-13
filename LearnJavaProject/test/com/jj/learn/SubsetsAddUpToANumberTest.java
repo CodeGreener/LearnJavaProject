@@ -10,9 +10,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SubsetsAddUpToANumberTest {
 
-	private SubsetsAddUpToANumber inst = new SubsetsAddUpToANumber();
+	private static SubsetsAddUpToANumber inst = new SubsetsAddUpToANumber();
 	@BeforeAll
-	public void setUp() throws Exception {
+	public static void setUp() throws Exception {
 	}
 
 	@Test
